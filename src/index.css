@@ -1,0 +1,250 @@
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=EB+Garamond");
+
+body {
+  width: 100%;
+  overflow-x: hidden;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+  margin: 0;
+  background: #ffffff;
+}
+
+::selection {
+  background: #000;
+  color: #ffffff;
+}
+
+::placeholder {
+  background: #ffffff;
+  color: #333333;
+  font-size: 15px;
+}
+
+body.modal-open {
+  overflow: scroll !important;
+}
+
+i {
+  cursor: pointer;
+}
+
+a,
+a:hover,
+a:active,
+a:focus {
+  text-decoration-color: none !important;
+  text-decoration: none !important;
+  outline: none;
+}
+
+a.disabled {
+  pointer-events: none;
+}
+
+.form-control {
+  outline: 4 !important;
+  box-shadow: none !important;
+  border-radius: 0px !important;
+  font-size: 12px;
+}
+
+.btn {
+  box-shadow: none !important;
+  border-radius: 1.5px !important;
+}
+
+/** My NavBar **/
+
+.MyNavbar {
+  background: #ffffff !important;
+  height: 55px;
+  z-index: 10;
+  -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.2);
+  box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.2);
+  position: -webkit-sticky;
+  position: -moz-sticky;
+  position: -ms-sticky;
+  position: -o-sticky;
+  position: sticky;
+  top: 0px;
+}
+
+.MyNavbar .nav-link {
+  font-size: 0.9em;
+  color: #eb7404 !important;
+  font-weight: bold;
+  padding-left: 35px;
+  padding-right: 35px;
+  text-align: center;
+}
+
+.MyNavbar .nav-link a {
+  color: #eb7404 !important;
+}
+
+.MyNavbar .nav-link:hover {
+  color: #000000 !important;
+}
+
+.MyNavbar-fluid {
+  padding: 0 60px;
+}
+
+.MyNavbar .navbar-brand {
+  margin-top: 0px;
+}
+
+/* Typograph */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+th {
+  font-family: serif, "Crimson Text";
+}
+
+p,
+span,
+td,
+li,
+ul {
+  font-family: sans-serif, serif;
+}
+
+.text-capitalize {
+  text-transform: capitalize;
+}
+
+.text-uppercase {
+  text-transform: uppercase;
+}
+
+.text-lowercase {
+  text-transform: lowercase;
+}
+
+.text-bold {
+  font-weight: bold;
+}
+
+i {
+  cursor: pointer;
+}
+
+/* .btn-outline-default {
+  border: 3px solid #ffffff !important;
+  color: #ffffff;
+  font-size: 12px;
+}
+
+.btn-outline-default:hover,
+.btn-outline-default:active,
+.btn-outline-default:focus {
+  background: #000000;
+  color: #ffffff;
+} */
+
+.center-text {
+  text-align: center;
+}
+
+.text-left {
+  text-align: left;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.text-weight {
+  font-weight: 400;
+}
+
+/* My Navbar Drop down */
+
+.MyNavbar .dropdown-menu {
+  box-shadow: none !important;
+  border-top: 0px !important;
+  border-left: 2px solid #ffffff;
+  border-right: 2px solid #ffffff;
+  border-bottom: 2px solid #ffffff;
+}
+
+.MyNavbar .dropdown-menu .dropdown-item {
+  font-size: 0.9em;
+  color: #eb7404 !important;
+  font-weight: bold;
+  padding-left: 20px;
+  padding-right: 50px;
+  letter-spacing: 1px;
+}
+
+.MyNavbar .dropdown-menu .dropdown-item a {
+  color: #eb7404 !important;
+}
+
+.MyNavbar .dropdown-menu .dropdown-item:hover,
+.MyNavbar .dropdown-menu .dropdown-item:active,
+.MyNavbar .dropdown-menu .dropdown-item:focus {
+  background: none;
+}
+
+.MyNavbar .navbar-toggler {
+  /* border: none; */
+  background: trasparent;
+  outline: none;
+  border-style: none;
+}
+
+@media (max-width: 1280px) {
+  .MyNavbar {
+    background: #ffffff !important;
+    height: 50px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+  }
+}
+
+@media (max-width: 780px) {
+  .MyNavbar {
+    background: #ffffff !important;
+    height: 80px;
+    z-index: 10;
+    -webkit-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+    -moz-box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+    box-shadow: 0px 3px 13px 0px rgba(0, 0, 0, 0.08);
+    align-items: center;
+    position: -webkit-sticky;
+    position: -moz-sticky;
+    position: -ms-sticky;
+    position: -o-sticky;
+    position: sticky;
+    top: 0px;
+    width: 100%;
+  }
+
+  .MyNavbar .navbar-collapse {
+    background: #ffffff;
+    position: absolute;
+    top: 70px;
+    right: 0;
+    left: 0;
+    min-height: 50%;
+    border-top: 1xpx solid #ff7b0086;
+  }
+
+  .MyNavbar .navbar-toggler {
+    position: absolute;
+    right: 10px;
+    font-size: 17px;
+  }
+  body {
+    width: 100%;
+  }
+}

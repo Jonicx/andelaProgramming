@@ -1,0 +1,131 @@
+.contact-side {
+  padding: 150px 50px;
+  background-color: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.7) 90%,
+    #000 100%
+  );
+  background: url("../../../../ImageAssets/international-dialling-codes.jpg");
+  box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.contact-side .title {
+  font-size: 45px;
+  color: white;
+}
+
+.contact-side .sub-title {
+  font-size: 18px;
+  color: white;
+}
+
+.send-message .title {
+  color: #4e4e4e !important;
+}
+
+.send-message {
+  padding: 15px 10px;
+}
+
+@media (max-width: 780px) {
+  .btn-block {
+    margin-top: 10px;
+  }
+
+  .email {
+    margin-top: 30px;
+  }
+  .contact-side .title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .contact-side {
+    padding: 95px 0px;
+    background-color: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.7) 90%,
+      #000 100%
+    );
+    background: url("../../../../ImageAssets/international-dialling-codes.jpg");
+    box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+    background-size: contain;
+    background-position: center;
+  }
+}
+
+/* Blog-page */
+
+.Blog-page {
+  padding: 150px 150px;
+  background-color: linear-gradient(
+    to bottom,
+    transparent 0%,
+    rgba(0, 0, 0, 0.7) 90%,
+    #000 100%
+  );
+  background: url("../../../../ImageAssets/Blog-1.jpg");
+  box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.5);
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.Blog-page .title {
+  font-size: 48px;
+  color: white;
+}
+
+.Blog-page .sub-title {
+  font-size: 18px;
+  color: white;
+}
+
+.Blog-page .btn {
+  background-color: rgba(235, 116, 4, 0.35) !important;
+  color: white;
+  height: 55px;
+  width: 220px;
+  font-weight: bold;
+  font-size: 17px;
+}
+
+.Blog-page .login {
+  background-color: rgba(235, 116, 4, 0.79) !important;
+}
+
+.Blog-page .login:hover {
+  background: rgba(39, 39, 39, 0.89);
+  color: #000000;
+}
+
+.Blog-page .signup:hover {
+  background-color: rgba(231, 231, 231, 0.432);
+  color: #000000;
+}
+
+@media (max-width: 780px) {
+  .Blog-page .title {
+    font-size: 20px;
+    text-align: center;
+  }
+
+  .Blog-page {
+    padding: 95px 0px;
+    background-color: linear-gradient(
+      to bottom,
+      transparent 0%,
+      rgba(0, 0, 0, 0.7) 90%,
+      #000 100%
+    );
+    background: url("../../../../ImageAssets/Blog-1.jpg");
+    box-shadow: inset 0 0 0 50vw rgba(0, 0, 0, 0.3);
+    background-size: contain;
+    background-position: center;
+  }
+}
