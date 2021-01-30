@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import {	Container,Row,Col,Form,Button} from 'react-bootstrap';
 import AppLayout from '../../../Applayout/Applayout';
-
+import FirebaseDatabase from './FirebaseDatabase';
 import './index.css';
 
 export const ContactUsUi =()=>{
@@ -68,6 +68,7 @@ export const ContactUsUi =()=>{
                            <Col lg={6} xs={12}>
                               <Form.Control
                                  type='text'
+                                 id='name'
                                  name='name'
                                  placeholder='Name'
                                  required={true}
@@ -83,6 +84,7 @@ export const ContactUsUi =()=>{
                            <Col lg={6} xs={12}>
                               <Form.Control
                                  type='email'
+                                 id='email'
                                  name='email'
                                  placeholder='Email'
                                  className='email'
@@ -106,6 +108,7 @@ export const ContactUsUi =()=>{
                                  <Form.Control 
                                  name='message'
                                  as="textarea" 
+                                 id='message'
                                  rows={2} 
                                  placeholder='Message'
                                  autoComplete={false}
@@ -125,6 +128,8 @@ export const ContactUsUi =()=>{
                                  variant='primary'
                                  className='btn-block py-2 mb-5'
                                  style={{ fontSize: '14px' }}
+                                 id='Submit1'
+                                 FirebaseDatabase
                               >
                                  <i className='fa fa-check-circle'></i> Send mail
                               </Button>
@@ -137,5 +142,5 @@ export const ContactUsUi =()=>{
          </Container>
       </section>
 </AppLayout>
-   )
-}
+   );
+};

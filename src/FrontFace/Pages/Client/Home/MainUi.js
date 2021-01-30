@@ -38,98 +38,80 @@ export const MainUi = ()=>{
                      </p>
                   </Col>
 
-                  <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
-                     <div className='shadow'>
-                     <Image
-                        src={Blue}
-                        alt='Blue'
-                     />
-
-                     {/* <p
-                           className='text-uppercase center-text text-bold  '
-                           style={{ fontSize: '14px' }}
-                        >
-                        Blue Flyer
-                     </p> */}
-                     </div>
-                  </Col>
-
-                  <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4'>
                      <div className='shadow'>
                         <Image
                            src={Pink}
                            alt='Pink'
                         />
-                        {/* <p
-                           className='text-uppercase center-text text-bold'
-                           style={{ fontSize: '14px' }}
-                        >
-                           Pink Flyer
-                        </p> */}
                      </div>
                   </Col>
-                  
-                  <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
+
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
                      <div className='shadow'>
                      <Image
                         src={Blue}
                         alt='Blue'
                      />
-
-                     {/* <p
-                           className='text-uppercase center-text text-bold  '
-                           style={{ fontSize: '14px' }}
-                        >
-                        Blue Flyer
-                     </p> */}
                      </div>
                   </Col>
+                  
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
+                     <div className='shadow'>
+                     <Image
+                           src={Pink}
+                           alt='Pink'
+                     />
+                     </div>
+                  </Col>
+
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
+                     <div className='shadow'>
+                     <Image
+                        src={Blue}
+                        alt='Blue'
+                     />
+                     </div>
+                  </Col>
+
                {/* </Row>
             </Container>
             <Container className='align-align-items-center'>
                <Row> */}
-               <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
-                     <div className='shadow'>
-                        <Image
-                           src={Pink}
-                           alt='Pink'
-                        />
-                        {/* <p
-                           className='text-uppercase center-text text-bold'
-                           style={{ fontSize: '14px' }}
-                        >
-                           Pink Flyer
-                        </p> */}
-                     </div>
-                  </Col>
 
-                  <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
+               <Col lg={3} md={4} sm={4} xs={6} className='mb-4'>
                      <div className='shadow'>
                      <Image
                         src={Blue}
                         alt='Blue'
                      />
-
-                     {/* <p
-                           className='text-uppercase center-text text-bold  '
-                           style={{ fontSize: '14px' }}
-                        >
-                        Blue Flyer
-                     </p> */}
                      </div>
                   </Col>
-                  <Col lg={4} md={4} sm={4} xs={6} className='mb-4'>
+
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
+                     <div className='shadow'>
+                     <Image
+                           src={Pink}
+                           alt='Pink'
+                     />
+                     </div>
+                  </Col>
+
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
+                     <div className='shadow'>
+                     <Image
+                        src={Blue}
+                        alt='Blue'
+                     />
+                     </div>
+                  </Col>
+
+                  <Col lg={3} md={4} sm={4} xs={6} className='mb-4 removeOnMobile'>
                      <div className='shadow'>
                         <Image
                            src={Pink}
                            alt='Pink'
                         />
-                        {/* <p
-                           className='text-uppercase center-text text-bold'
-                           style={{ fontSize: '14px' }}
-                        >
-                           Pink Flyer
-                        </p> */}
                      </div>
                   </Col>
                </Row>
