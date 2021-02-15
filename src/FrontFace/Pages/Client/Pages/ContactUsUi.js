@@ -2,9 +2,6 @@ import { useState } from 'react';
 import {	Container,Row,Col,Form,Button} from 'react-bootstrap';
 import AppLayout from '../../../Applayout/Applayout';
 import './index.css';
-import 'firebase/database';
-import firebase from 'firebase';
-import {Config} from './Config';
 
 export const ContactUsUi =()=>{
 
@@ -131,7 +128,6 @@ export const ContactUsUi =()=>{
                                  variant='primary'
                                  className='btn-block py-2 mb-5'
                                  style={{ fontSize: '14px' }}
-                                 id='Submit1'
                               >
                                  <i className='fa fa-check-circle'></i> Send mail
                               </Button>

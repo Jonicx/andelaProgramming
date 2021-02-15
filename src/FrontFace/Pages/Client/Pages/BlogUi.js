@@ -1,6 +1,6 @@
 import React from 'react';
 import AppLayout from '../../../Applayout/Applayout';
-import {Row, Col, Image, Container,Button} from 'react-bootstrap';
+import {Row, Col, Image, Container} from 'react-bootstrap';
 import { reverse } from 'named-urls';
 import RoutesName from '../../../../App/Config/routes';
 import { Link } from 'react-router-dom';

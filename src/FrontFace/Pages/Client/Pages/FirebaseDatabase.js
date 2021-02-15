@@ -1,6 +1,3 @@
-import firebase from 'firebase';
-
-
    // var Email,Name,Message
 
 //    var firebaseConfig = {
