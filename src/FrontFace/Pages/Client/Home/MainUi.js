@@ -33,7 +33,7 @@ export const MainUi = ()=>{
             <Container>
                <Row>
                   <Col lg={12} className='mb-0 mt-4'>
-                     <p className='title text-uppercase center-text text-bold'>
+                     <p className='title text-uppercase center-text text-bold stayOnPhone'>
                         Products I have produced
                      </p>
                   </Col>
@@ -79,7 +79,7 @@ export const MainUi = ()=>{
             <Container className='align-align-items-center'>
                <Row> */}
 
-               <Col lg={3} md={4} sm={4} xs={6} className='mb-4'>
+               <Col lg={3} md={4} sm={4} xs={6} className='mb-4 stayOnPhone'>
                      <div className='shadow'>
                      <Image
                         src={Blue}

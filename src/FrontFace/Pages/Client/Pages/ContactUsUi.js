@@ -1,10 +1,13 @@
 import { useState } from 'react';
 import {	Container,Row,Col,Form,Button} from 'react-bootstrap';
 import AppLayout from '../../../Applayout/Applayout';
-import FirebaseDatabase from './FirebaseDatabase';
 import './index.css';
+import 'firebase/database';
+import firebase from 'firebase';
+import {Config} from './Config';
 
 export const ContactUsUi =()=>{
+
    const [validated, setValidated] = useState(false);
 
    const [customer, setCustomer] = useState({
@@ -25,8 +28,8 @@ export const ContactUsUi =()=>{
 
 		if (form.checkValidity() === false) {
 			e.stopPropagation();
-		}
-		setValidated(true);
+      }
+      setValidated(true);
    };
 
    return (
@@ -129,7 +132,6 @@ export const ContactUsUi =()=>{
                                  className='btn-block py-2 mb-5'
                                  style={{ fontSize: '14px' }}
                                  id='Submit1'
-                                 FirebaseDatabase
                               >
                                  <i className='fa fa-check-circle'></i> Send mail
                               </Button>
