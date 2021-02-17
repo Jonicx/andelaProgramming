@@ -25,11 +25,16 @@
 }
 
 .news-letter .right-color {
-  color: #252525;
+  color: #272727;
 }
 
 .news-letter .Footer-text-color {
-  color: #e0e0e0;
+  color: #3f3e3e !important;
+}
+
+.Footer-text-color {
+  color: #555555 !important;
+  font-weight: bold;
 }
 
 .news-letter .sub-tittle {
@@ -43,13 +48,18 @@
   text-align: left;
 }
 
+.copyright-Text {
+  font-size: 0.7em;
+  font-weight: 600;
+}
+
 .footer {
   background: #ffffff;
 }
 
 .nav-links {
   font-size: 0.9em;
-  color: #1b1b1b !important;
+  /* color: #3a3a3a !important; */
   padding-left: 35px;
   padding-right: 35px;
   text-align: left;

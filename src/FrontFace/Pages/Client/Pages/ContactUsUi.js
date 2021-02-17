@@ -4,7 +4,7 @@ import AppLayout from '../../../Applayout/Applayout';
 import './index.css';
 
 export const ContactUsUi =()=>{
-
+   
    const [validated, setValidated] = useState(false);
 
    const [customer, setCustomer] = useState({
@@ -25,10 +25,9 @@ export const ContactUsUi =()=>{
 
 		if (form.checkValidity() === false) {
 			e.stopPropagation();
-      }
-      setValidated(true);
+		}
+		setValidated(true);
    };
-
    return (
    <AppLayout> 
       <section className='contact-side'>

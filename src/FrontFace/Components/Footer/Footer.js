@@ -79,19 +79,19 @@ export const Footer =() =>{
 
 							<ul className='mt-4'>
 								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links text-bold btn-outline-default disabled'>PRODUCT</Link>
+									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>PRODUCT</Link>
 								</li>
 								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links text-bold btn-outline-default disabled'>RESUME</Link>
+									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>RESUME</Link>
 								</li>
 								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links text-bold btn-outline-default disabled'>ABOUT</Link>
+									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>ABOUT</Link>
 								</li>
 								<li>
-									<Link to={reverse(RoutesName.pages.blog)} className='nav-links text-bold btn-outline-default'>BLOG</Link>
+									<Link to={reverse(RoutesName.pages.blog)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default'>BLOG</Link>
 								</li>
 								<li>
-									<Link to={reverse(RoutesName.pages.contact)} className='nav-links text-bold btn-outline-default'>CONTACT</Link>
+									<Link to={reverse(RoutesName.pages.contact)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default'>CONTACT</Link>
 								</li>
 							</ul>
 						</Col>
@@ -102,19 +102,26 @@ export const Footer =() =>{
 							</p>
 
 							<p className='mt-4'>
-								<span className='text-bold'>Address</span>{' '}
-								<span className='float-right'>
+								<span className='text-bold sub2-tittle Footer-text-color'>Address :</span>{' '}
+								<span className='float-right sub2-tittle Footer-text-color'>
 									KGL 250 Streets, Gasabo, Rwanda
 								</span>{' '}
 								<br />
-								<span className='text-bold'>Email</span>{' '}
-								<span className='float-right'>johndoe@example.com</span>
+								<span className='text-bold sub2-tittle Footer-text-color'>Email :</span>{' '}
+								<span className='float-right sub2-tittle Footer-text-color'>johndoe@example.com</span>
 								<br />
-								<span className='text-bold'>Toll Free</span>{' '}
-								<span className='float-right'>+250 78000000</span> 
+								<span className='text-bold sub2-tittle Footer-text-color'>Toll Free :</span>{' '}
+								<span className='float-right sub2-tittle Footer-text-color'>+250 78000000</span> 
 								<br/>
-								<span className='text-bold'>My social medias</span>{' '}
-								<span className='float-right'>@John Doe's Gin</span> 
+								<span className='text-bold sub2-tittle Footer-text-color'>My social medias :</span>{' '}
+								<span className='float-right sub2-tittle Footer-text-color'>@John Doe's Gin</span> 
+							</p>
+						</Col>
+				</Row>
+				<Row className='justify-content-center'>
+						<Col lg={4} md={4} sm={12} xs={12} className='py-2 mt-3'>
+							<p className='border-top border-bottom pb-3 pt-3 font-smaller copyright-Text Footer-text-color text-center'>
+							COPYRIGHT © 2021 SOFTiNiX-GENERATION	
 							</p>
 						</Col>
 				</Row>

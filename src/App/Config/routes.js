@@ -1,7 +1,7 @@
 import { include } from 'named-urls';
 
 const RoutesName = {
-   home: "/Home",
+   home: "/",
 
    pages: include('/pages', {
       contact: 'Hanga-and-contact-with-us-today ',
