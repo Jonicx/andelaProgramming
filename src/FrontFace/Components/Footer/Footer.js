@@ -1,8 +1,5 @@
 import React from 'react';
 import {	Container,Row,Col,Form,Button} from 'react-bootstrap';
-import RoutesName from '../../../App/Config/routes';
-import { reverse } from 'named-urls';
-import { Link } from 'react-router-dom';
 
 import './index.css';
 
@@ -65,35 +62,14 @@ export const Footer =() =>{
 		<footer className='footer py-5'>
 			<Container>
 				<Row className='justify-content-center'>
-					<Col lg={4} md={4} sm={12} xs={12} className='py-3'>
-						<p className='border-bottom pb-3 text-uppercase tittle text-bold Footer-text-color'>Let me build the website you need</p>
+						<Col lg={6} md={4} sm={12} xs={12} className='py-3'>
+							<p className='border-bottom pb-3 text-uppercase tittle text-bold Footer-text-color'>Let me build the website you need</p>
 
-						<p className='text-capitalize center-text font-smaller sub2-tittle  Footer-text-color mt-4'>
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
-						ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-						ullamco laboris nisi ut aliquip ex ea commodo consequat.
-						</p>
-					</Col>
-					<Col lg={3} md={4} sm={12} xs={12} className='py-3'>
-							<p className='border-bottom pb-3 text-uppercase tittle text-bold Footer-text-color'>Resources</p>
-
-							<ul className='mt-4'>
-								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>PRODUCT</Link>
-								</li>
-								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>RESUME</Link>
-								</li>
-								<li>
-									<Link to={reverse(RoutesName.home)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default disabled'>ABOUT</Link>
-								</li>
-								<li>
-									<Link to={reverse(RoutesName.pages.blog)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default'>BLOG</Link>
-								</li>
-								<li>
-									<Link to={reverse(RoutesName.pages.contact)} className='nav-links sub2-tittle Footer-text-color text-bold btn-outline-default'>CONTACT</Link>
-								</li>
-							</ul>
+							<p className='text-capitalize center-text font-smaller sub2-tittle  Footer-text-color mt-4'>
+							Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt
+							ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation
+							ullamco laboris nisi ut aliquip ex ea commodo consequat.
+							</p>
 						</Col>
 						
 						<Col lg={4} md={4} sm={12} xs={12} className='py-3'>

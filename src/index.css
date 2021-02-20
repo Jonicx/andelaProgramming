@@ -168,7 +168,7 @@ i {
 
 .MyNavbar .dropdown-menu {
   box-shadow: none !important;
-  border-top: 0px !important;
+  border-top: 50% !important;
   border-left: 2px solid #ffffff;
   border-right: 2px solid #ffffff;
   border-bottom: 2px solid #ffffff;
@@ -194,7 +194,6 @@ i {
 }
 
 .MyNavbar .navbar-toggler {
-  /* border: none; */
   background: trasparent;
   outline: none;
   border-style: none;
@@ -232,16 +231,17 @@ i {
   .MyNavbar .navbar-collapse {
     background: #ffffff;
     position: absolute;
-    top: 70px;
+    top: 100%;
     right: 0;
     left: 0;
-    min-height: 50%;
-    border-top: 1xpx solid #ff7b0086;
+    min-height: 60%;
+    border-top: 1px;
   }
 
   .MyNavbar .navbar-toggler {
     position: absolute;
     right: 10px;
+    top: 40%;
     font-size: 17px;
   }
   body {

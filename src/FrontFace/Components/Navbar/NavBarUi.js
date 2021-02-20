@@ -35,7 +35,13 @@ export const NavBarUi =()=>{
 							<Link to={reverse(RoutesName.home)} className='nav-link'>
                         HOME
 							</Link>
-							<Link
+							<Link to={reverse(RoutesName.pages.blog)} className='nav-link'>
+                        BLOG
+							</Link>
+							<Link to={reverse(RoutesName.pages.contact)} className='nav-link'>
+                        CONTACT
+							</Link>
+                     <Link
 								to={reverse(RoutesName.home)}className='nav-link disabled'>
                         PRODUCT
 							</Link>
@@ -45,12 +51,6 @@ export const NavBarUi =()=>{
 							</Link>
 							<Link to={reverse(RoutesName.home)} className='nav-link disabled'>
                         ABOUT
-							</Link>
-							<Link to={reverse(RoutesName.pages.blog)} className='nav-link'>
-                        BLOG
-							</Link>
-							<Link to={reverse(RoutesName.pages.contact)} className='nav-link'>
-                        CONTACT
 							</Link>
 						</Nav>
 					</Navbar.Collapse>

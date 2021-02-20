@@ -1,10 +1,11 @@
-import { useState } from 'react';
+import React, { useState } from 'react';
 import {	Container,Row,Col,Form,Button} from 'react-bootstrap';
 import AppLayout from '../../../Applayout/Applayout';
 import './index.css';
+import { firebaseConfig } from "../../../../services/firebase";
 
 export const ContactUsUi =()=>{
-   
+
    const [validated, setValidated] = useState(false);
 
    const [customer, setCustomer] = useState({

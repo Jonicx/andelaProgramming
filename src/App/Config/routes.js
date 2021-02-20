@@ -5,7 +5,7 @@ const RoutesName = {
 
    pages: include('/pages', {
       contact: 'Hanga-and-contact-with-us-today ',
-      blog: 'John-Doe`s-blog'
+      blog: 'John-Does-blog'
    }),
 };
 
