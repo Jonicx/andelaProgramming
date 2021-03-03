@@ -25,7 +25,7 @@ export const Footer =() =>{
                                  type='email'
                                  name='email'
 											placeholder='johndoe@example.com'
-											className='email'
+											className='email py-2 mb-1'
                                  required={false}
                                  autoComplete={false}
                               />
